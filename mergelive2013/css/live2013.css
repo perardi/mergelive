@@ -772,6 +772,21 @@ a:hover {
 }
 
 /* --------------- TABS --------------- */
+
+@media only screen and (min-width: 840px) {
+	.full_width_frame {
+		width: 1020px !important;
+	}
+
+	#agenda_pdf_main {
+		float: right;
+		position: relative;
+	}
+	
+}
+
+
+
 #moving_tab {
 	width: 1020px;
 	height: 600px;

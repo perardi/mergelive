@@ -34,6 +34,13 @@ function showTwitterBar() {
 
 $(document).ready(function() {
 
+/****************** Load schedule ******************/	
+	$.ajax({
+	  url: "../mergelive2013/agenda/agenda.html",
+	}).done(function( html ) {
+	  $("#agenda_swap").append(html);
+	});
+
 /****************** Open and close video ******************/	
 	$(".watch_schedule").on('click', function() {
 		$(".video_box").css("display", "inline");

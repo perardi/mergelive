@@ -83,6 +83,10 @@
 
 /* ------------- SECTION TWEAKS ------------- */
 
+#agenda_pdf_main {
+	display: none !important;
+}
+
 .download_agenda {
 	display: inline !important;
 	width: 75%;
