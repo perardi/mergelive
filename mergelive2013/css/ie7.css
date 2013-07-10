@@ -1,0 +1,35 @@
+.nav_orange, .nav_purple, .nav_green, .nav_grey {
+	display: none !important;
+}
+
+#register, #agenda, #sponsors, #faq {
+	display: none !important;
+}
+
+.watch_schedule, .video_box {
+	display: none !important;
+}
+
+#static_upper {
+	margin-top: -75px;
+}
+
+#twitter_sidebar {
+	top: 390px;
+}
+
+#logo {
+	margin-top: -5px;
+}
+
+#logo img {
+	width: 350px;
+}
+
+ul.controllers {
+	margin-left: 120px;
+}
+
+.download_agenda {
+	display: inline !important;
+}
