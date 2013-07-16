@@ -754,7 +754,7 @@ a:hover {
   position: absolute;
   z-index: 200;
   margin-left: 796px;
-  top: 387px;
+  top: 381px;
   -webkit-transition-duration: all 0.5s;
   -moz-transition-duration: all 0.5s;
   -ms-transition-duration: all 0.5s;
@@ -796,6 +796,10 @@ a:hover {
   -ms-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s; }
+
+sup {
+  font-size: xx-small;
+  vertical-align: top; }
 
 /* --------------- TABS --------------- */
 @media only screen and (min-width: 840px) {
