@@ -101,7 +101,7 @@ a:hover {
 }
 ;T:raw@
 :pre@
-I"/;T{;{	;I"à8
+I"/;T{;{	;I"¥8
 	<!DOCTYPE html>
 <html>
 	<head>
@@ -111,8 +111,6 @@ I"/;T{;{	;I"à8
 		<title>Merge Live On-Demand 2013</title>
 		
 		<link rel="stylesheet" media="screen" href="../mergelive2013/css/live2013.css" />
-		<link rel="stylesheet" media="screen" href="../mergelive2013/css/tablet.css" />
-		<link rel="stylesheet" media="screen" href="../mergelive2013/css/mobile.css" />
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css" rel="stylesheet">
 		<!--[if IE 9]> <style> .lower_stuff {opacity: 1 !important}  </style> <![endif]-->
 		<!--[if lte IE 7]>
@@ -375,6 +373,12 @@ I"/;T{;{	;I"à8
 				</ul>
 			</div>
 		</div>
+		
+	<div id="sponsored_by">
+	
+
+	
+</div>	
 				
 			<div id="footer_wrap">
 			
@@ -412,8 +416,9 @@ I"/;T{;{	;I"à8
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="../mergelive2013/js/jquery.sequence-min.js"></script>
-		<script src="../mergelive2013/js/sequencejs-options.modern-slide-in.js"></script>
-		<script src="../mergelive2013/js/jquery.cookie.js"></script>
+		<script src="../mergelive2013/js/cycle-ck.js"></script>
+		<script src="../mergelive2013/js/sequencejs-options.modern-slide-in-ck.js"></script>
+		<script src="../mergelive2013/js/jquery.cookie-ck.js"></script>
 		<script src="../mergelive2013/js/retina.js"></script>
 		
 		<script type="text/javascript">

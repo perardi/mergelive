@@ -40,6 +40,12 @@ $(document).ready(function() {
 	}).done(function( html ) {
 	  $("#agenda_swap").append(html);
 	});
+	
+	$.ajax({
+	  url: "../mergelive2013/sponsors/sponsor_content.html",
+	}).done(function( html ) {
+	  $("#sponsored_by").append(html);
+	});	
 
 /****************** Open and close video ******************/	
 	$(".watch_schedule").on('click', function() {
@@ -52,6 +58,7 @@ $(document).ready(function() {
 		$(".video_box").css("display", "none");
 		$(".video_container").html('<p>&nbsp;</p>');		
 	});	
+
 
 /****************** Options for slider ******************/
     var options = {

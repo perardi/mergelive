@@ -1,0 +1,50 @@
+/* ------------- FIRST SLIDE ------------- */
+#front_buttons {
+	width: 100%;
+	height: 50px;
+	margin-left: 10px;
+	margin-bottom: 24px;
+}
+
+#front_buttons img {
+	float: left;	-webkit-transition: all 0.5s ease;    -moz-transition: all 0.5s ease;    -ms-transition: all 0.5s ease;   -o-transition: all 0.5s ease;    transition: all 0.5s ease;
+}
+
+ul.controllers {
+	display: inline-block;
+	width: 100%;
+}
+
+ul.controllers li {
+	margin-right: 24px;
+	display: inline-block;
+	float: left;
+	width: 200px;
+	height: 55px;
+}
+
+#front_buttons img:hover {
+	margin-top: -4px;
+}
+
+#front_copy_columns {
+	width: 100%;
+	margin-top: 12px;
+}
+
+#front_copy_left {
+	float: left;
+	width: 47%;
+}
+
+#front_copy_right {
+	float: right;
+	width: 47%;
+}
+
+.faq_pad {
+	padding-left: 10px;
+	font-size: 90%;
+	margin-left: 20px;
+	border-left: 1px solid #dddddd;
+}

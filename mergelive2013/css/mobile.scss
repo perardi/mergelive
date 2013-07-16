@@ -1,12 +1,32 @@
-@media only screen and (max-width: 768px) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 479px) {
 
 /* ------------- STRUCTURE ------------- */
 
+.sequence-theme {
+    background:#ffffff !important;
+}
+
+.cityscape {
+    background:transparent !important;
+}
+
+#static_upper {
+	clear: none;
+	width: 100%;
+}
+
 #logo {
 	position: inline;
+	width: 250px !important;
 	margin: 0 auto !important;
-	margin-top: 0px !important;
-	margin-left: 5% !important;
+	margin-top: -20px !important;
+	margin-left: 14% !important;
+}
+
+#plane {
+	display: none !important;
 }
 
 .twitter_link, .facebook_link, .lin_link, .blip {
@@ -19,22 +39,47 @@
 	}
 	
 	#antenna {
-		display: none !important;		
+		display: none !important;
 	}
 
 
 /* --------------- NAVIGATION --------------- */
 #navbar {
 	width: 100%;
+	height: 200px;
+	margin-top: -24px;
 }
 
 #nav_wrap {
 	width: 100%;
 }
 
+.inner_nav{
+	height: 40px;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+#navbar ul {
+	display: block;
+}
+
+#navbar ul li {
+	display: block;
+	width: 100%;
+	text-align: center;
+	height: 32px;
+	padding: 8px 0 0 0;		
+}
+
+#navbar ul li.nav_active {
+	display: block;
+}
+
 /* ------------- UPPER SLIDER ------------- */
 #sequence {
   width: 100%;
+  height: 75px;
 }
 
 #sequence > .sequence-canvas {
@@ -49,11 +94,6 @@
   z-index: 1;
 }
 
-#plane {
-	display: none;
-}
-
-
 /* ------------- LOWER SLIDER ------------- */
 #sequence2 {
   margin: 0 auto;
@@ -62,7 +102,6 @@
   width: 100%;  
   height: 750px;
 }
-
 #sequence2 > .sequence-canvas {
   height: 100%;
   width: 100%;
@@ -77,8 +116,26 @@
 .main_content_area {
 	width: 85%;
 	float: left;
-	margin-left: 2%;
-	padding: 40px 20px 10px 20px;
+	padding: 20px 20px 10px 20px;
+}
+
+/* ------------- SPONSOR ------------- */	
+
+#sponsored_by {
+	width: 90%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #666666;
+	font-size: 75%;
+	border-top: 1px solid #ddd;	
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+#sponsored_flow {
+	height: 75px !important;
+	width: 100% !important;
 }
 
 /* ------------- SECTION TWEAKS ------------- */
@@ -89,16 +146,16 @@
 
 .download_agenda {
 	display: inline !important;
-	width: 75%;
+	width: 100%;
 	margin-bottom: -200px !important;
 	border-top: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;	
-	height: 100px !important;
-	padding-top: 75px;
+	height: 50px !important;
+	padding-top: 40px;
 }
 
 .download_agenda img {
-	width: 75%;
+	width: 100%;
 	margin-top: 0px;
 }
 
@@ -107,7 +164,7 @@
 }
 
 #front_copy_left, #front_copy_right {
-	font-size: 100%;
+	font-size: 76%;
 }
 
 #front_buttons {
@@ -117,7 +174,7 @@
 }
 
 #front_copy_columns {
-	margin-top: -5px;
+	margin-top: -35px;
 }
 
 ul.controllers {
@@ -127,11 +184,15 @@ ul.controllers {
 ul.controllers li {
 	display: inline;
 	float: left;
-	width: 175px !important;
+	width: 110px !important;
 }
 
 ul.controllers li img {
-	width: 175px !important;
+	width: 110px !important;
+}
+
+.watch_schedule {
+	display: none !important;
 }
 
 h3 {
@@ -139,19 +200,19 @@ h3 {
 }
 
 .intro_para {
-	font-size: 110%;
+	font-size: 100%;
 }
 
 .reg_para {
-	font-size: 110%;
+	font-size: 90%;
 }
 
 .remote_reg_button {
-	width: 15%;
+	width: 24%;
 }
 
 .sign_up_now {
-	font-size: 150%;
+	font-size: 120%;
 }
 
 .scroller {
@@ -222,6 +283,7 @@ h3 {
 	#social_nav ul li {
 		display: inline;
 		padding-left: 0px;
+		font-size: 95%;
 	}
 	
 	.lower_nav_divider {

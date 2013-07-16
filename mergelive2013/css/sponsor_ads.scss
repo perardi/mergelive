@@ -1,0 +1,24 @@
+/* ------------- ADS ------------- */
+
+#sponsored_by {
+	width: 1026px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #666666;
+	font-size: 75%;
+	border-top: 1px solid #ddd;	
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+#sponsored_by p {
+	line-height: 2;
+}
+
+#sponsored_by img {
+    -webkit-transition: all 0.3s ease-out; 
+       -moz-transition: all 0.3s ease-out; 
+         -o-transition: all 0.3s ease-out; 
+            transition: all 0.3s ease-out;	
+}

@@ -1,0 +1,251 @@
+/* --------------- TABS --------------- */
+
+@media only screen and (min-width: 840px) {
+	.full_width_frame {
+		width: 1020px !important;
+	}
+
+	#agenda_pdf_main {
+		float: right;
+		position: relative;
+	}
+	
+}
+
+$purple: #704699;
+
+#moving_tab {
+	width: 1020px;
+	height: 600px;
+	border: 1px solid #ddd;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.tabs {
+	width: 100%;
+	background-color: $purple;
+	height: 70px;
+}
+
+.tabby {
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 700;
+	display: block;
+	padding-top: 10px;
+	height: 50px;
+	line-height: 1.15;
+}
+
+.item1 {
+	background-color: $purple;
+	color: #dddddd;
+	border-bottom: none;	
+}
+
+.item2 {
+	background-color: #008775;
+	color: #dddddd;
+	border-bottom: none;	
+}
+
+.item3 {
+	background-color: #997146;
+	color: #dddddd;
+	border-bottom: none;	
+}
+
+.item4 {
+	background-color: #466699;
+	color: #dddddd;
+	border-bottom: none;	
+}
+
+.item1:hover,.item2:hover,.item3:hover,.item4:hover {
+	color: #ffffff !important;
+}
+
+.content {
+	position: relative;
+	width: 4500px;
+	background: #eeeeee;
+    -webkit-transition: all 0.75s ease;    -moz-transition: all 0.75s ease;    -ms-transition: all 0.75s ease;    -o-transition: all 0.75s ease;    transition: all 0.75s ease;
+	height: 605px;
+}
+
+.download_agenda {
+	display: none;
+}
+
+.day_panel {
+	width: 100%;
+	float: left;
+	height:490px;
+	overflow-y: scroll;
+}
+
+.tuesday, .wednesday, .thursday, .friday {
+	padding: 20px;
+	width: 980px;
+}
+
+.wednesday {
+	margin-left: 8px;
+}
+
+.thursday {
+	margin-left: 6px;
+}
+
+.friday {
+	margin-left: 4px;
+}
+
+	.full_width {
+		width: 100%;
+		clear: both !important;
+		padding: 5px;
+		text-align: center;
+		background-color: #f7f7f7;
+	}
+	
+	.grid_pad {
+		background-color: #eeeeee;
+		padding: 0 !important;
+	}
+	
+	.breakout {
+		background-color: #000000;
+		width: 100%;
+		text-align: center;		
+		padding: 5px;
+		color: #ffffff;
+		font-weight: 700;
+	}
+	
+	.time {
+		font-weight: 300;
+	}
+	
+	.thursday_session {
+		width: 104px;
+		float: left;
+		padding: 8px;
+		overflow: hidden;
+		font-size: 8.75pt;
+		background-color: #eeeeee;
+		text-align: left;
+		height:325px;
+		overflow-y: auto !important;
+	}
+	
+	.topic {
+		font-weight: bold;
+		text-align: center;
+		background-color: #9c9c9c;
+		height: 30px !important;
+		min-height: 30px !important;
+		line-height: 1.25;
+		vertical-align: middle;
+		color: #ffffff;
+		overflow-y: hidden !important;
+	}
+	
+	.session_grey1 {
+		background-color: #f7f7f7;
+	}
+	
+	.topic_grey1 {
+		background-color: #adadad;
+	}
+	
+	.session_title {
+		font-weight: bold;
+		font-size: 10pt;
+		line-height: 1.1;
+	}
+	
+	.a_sponsor {
+		font-weight: bold;
+		font-size: 10pt;
+		line-height: 1.1;		
+	}
+	
+	.purpley {
+		background-color: #d9cfe3;
+		color: $purple;
+		
+	}
+	
+	.bluey {
+		background-color: #466699;
+	}
+	
+	.orangey {
+		background-color: #e3cdb8;
+		color: #997146;
+		width: 950px !important;
+	}
+	
+	.greeney {
+		background-color: #cfe3d6;
+		color: #008775;
+		padding: 5px 0px 5px 0px;
+		width: 960px !important;
+	}
+	
+	.cornflowery {
+		background-color: #bed7f7;
+		color: #466699;
+	}
+
+	.greeney_sponsor {
+		background-color: #008775;
+		color: #ffffff;
+		padding: 5px 0px 5px 0px;
+		width: 960px !important;
+	}
+	
+	.open {
+		background-color: #eeeeee;
+		color: #999999;
+	}
+	
+	.open_title {
+		font-weight: normal;
+		color: #cccccc;
+	}
+	
+	.scroller {
+		overflow: auto;
+	}
+	
+	.trainer {
+		font-weight: 700;
+		margin-left: 10px;
+	}
+	
+	.sponsor_agenda_by {
+		color: #999999;
+		font-weight: 700;
+		line-height: 0.9 !important;
+	}
+	
+	.sponsor_agenda_by a {
+		color: #666666;
+		text-decoration: underline;
+	}
+	
+	.sponsor_agenda_by a:hover {
+		color: #999999;
+		text-decoration: underline;
+	};
+	
+	.super_emc {
+		font-size: 50%;
+		line-height: 2 !important;
+		padding-bottom: 5px !important;
+	}
