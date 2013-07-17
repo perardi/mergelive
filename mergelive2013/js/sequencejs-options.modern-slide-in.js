@@ -31,6 +31,23 @@ function showTwitterBar() {
 }
 
 
+$(function() {
+
+
+
+	setTimeout(function(){
+	    $('#sponsored_flow').cycle({ 
+	        speed: 1000,
+	        timeout: 2000,
+	    });
+ 
+	    },200);	
+
+
+
+});
+
+
 
 $(document).ready(function() {
 
