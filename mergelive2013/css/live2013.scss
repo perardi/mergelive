@@ -456,7 +456,7 @@ h3 {
 	padding: 20px 15px 20px 0;
 	border-top: 1px solid #dddddd;
 	border-bottom: 0px solid #dddddd;
-	height: 655px;
+	height: 450px;
 }
 
 .green_head {
@@ -526,6 +526,18 @@ a:hover {
 
 .twitter-timeline {
 	margin-top: 12px;
+}
+
+/* --------------- Banner Ad --------------- */
+
+#main_banner {
+	position: relative;
+	z-index: 250;
+	width: 728px;
+	height: 90px;
+	border: 1px solid #cccccc;
+	text-align: center;
+	margin-top: -175px;
 }
 
 /* --------------- TEMP ANIMATION --------------- */

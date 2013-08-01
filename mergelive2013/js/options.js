@@ -27,7 +27,8 @@ function navNotActive() {
 
 function showTwitterBar() {
 		$("#twitter_sidebar").css("top", "381px");	
-		$("#antenna").css("top", "535px");	
+		$("#antenna").css("top", "535px");
+		$("#main_banner").css("margin-top", "-175px");			
 }
 
 
@@ -125,6 +126,7 @@ $(document).ready(function() {
 		$(this).addClass('nav_active');
 		$("#twitter_sidebar").css("top", "-3000px");
 		$("#antenna").css("top", "-3000px");
+		$("#main_banner").css("margin-top", "-3000px");
 	});	
 	
 	$(".nav_green").on('click', function() {
