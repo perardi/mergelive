@@ -26,7 +26,7 @@ function navNotActive() {
 }
 
 function showTwitterBar() {
-		$("#twitter_sidebar").css("top", "381px");	
+		$("#twitter_sidebar").css("top", "421px");	
 		$("#antenna").css("top", "535px");
 		$("#main_banner").css("margin-top", "-175px");			
 }

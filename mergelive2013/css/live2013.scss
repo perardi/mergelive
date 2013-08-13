@@ -79,6 +79,20 @@ strong {
   margin-top: -25px;
 }
 
+#already_registered {
+	width: 100%;
+	text-align: center;
+	background-color: #006699;
+	color: #ffffff;
+	height: 30px;
+	padding-top: 3px;
+}
+
+#already_registered a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 #static_upper {
 	clear: none;
 	width: 1026px;
@@ -89,7 +103,7 @@ strong {
 #logo {
 	position: absolute;
 	z-index: 100;
-	top: 35px;
+	top: 65px;
 }
 
 
@@ -359,6 +373,8 @@ position: relative;
 }
 
 
+
+
 /* ------------- LOWER SLIDER ------------- */
 #sequence2 {
   margin: 0 auto;
@@ -426,7 +442,7 @@ h3 {
 }
 
 .intro_para {
-	font-size: 125%;
+	font-size: 115%;
 	color: #555555;
 }
 
@@ -511,7 +527,7 @@ a:hover {
 	position: absolute;
 	z-index: 200;
 	margin-left: 796px;
-	top: 381px;
+	top: 421px;
     -webkit-transition-duration: all 0.5s;    -moz-transition-duration: all 0.5s;    -ms-transition-duration: all 0.5s;    -o-transition-duration: all 0.5s;       transition-duration: all 0.5s;
 }
 
